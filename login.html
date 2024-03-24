@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        
+        <div class="text-box">
+            <center> 
+            <h2> LOGIN </h2> 
+        
+            <form action="/action_page.php" method="post">
+              
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text"  placeholder="Enter Username" name="uname" required><br>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                  <br>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container">
+                    <button type="submit" class="submitbtn"><a href= "genre.html" style="color:rgb(255, 255, 255);">Login</a></button>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw" >New User<br><a href="create_acc.html" style="color:rgb(255, 255, 255);">Sign up</a></span>
+                </div>
+              </form>
+            </center>
+        </div>
+    </section>
+</body>
+</html>
